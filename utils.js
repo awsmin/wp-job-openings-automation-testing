@@ -7,7 +7,7 @@ const argv = yargs
 	.alias("f", "file")
 	.nargs("f", 1)
 	.describe("f", "Resume for Upload")
-	.default("f", "resume.pdf")
+	.default("f", "./assets/resume.pdf")
 	.alias("p", "preview")
 	.describe("p", "Preview Mode")
 	.help("h")
