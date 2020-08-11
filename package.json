@@ -1,0 +1,26 @@
+{
+  "name": "wp-job-openings-automation-testing",
+  "version": "1.0.0",
+  "description": "Automation Testing for WP Job Openings",
+  "main": "application.js",
+  "scripts": {
+    "start": "node application.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "prettier": {
+    "useTabs": true,
+    "tabWidth": 4
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "jsonfile": "^6.0.1",
+    "puppeteer": "^5.2.1",
+    "yargs": "^15.4.1"
+  },
+  "devDependencies": {
+    "prettier": "2.0.5"
+  }
+}
